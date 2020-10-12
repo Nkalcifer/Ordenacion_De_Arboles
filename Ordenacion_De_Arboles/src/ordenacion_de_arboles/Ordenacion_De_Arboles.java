@@ -14,6 +14,7 @@ public class Ordenacion_De_Arboles {
     /**
      * @param args the command line arguments
      */ public static void main(String[] ar) {
+         System.out.println("Ingrese Uno a uno los datos del arbol, Se ordenaran de raiz a izquiera y luego derecha");
         ArbolBinarioOrdenado abo = new ArbolBinarioOrdenado();
 
         abo.insertar(100);
