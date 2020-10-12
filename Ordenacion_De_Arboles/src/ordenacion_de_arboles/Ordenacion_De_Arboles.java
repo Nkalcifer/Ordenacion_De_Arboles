@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package ordenacion_de_arboles;
-
 import java.util.Scanner;
 
 /**
@@ -31,11 +30,11 @@ public class Ordenacion_De_Arboles {
             cantidadN--;
         }
 
-        System.out.println("Impresion preorden: ");
+        System.out.println("\nImpresion preorden: ");
         abo.imprimirPre();
-        System.out.println("Impresion entreorden: ");
+        System.out.println("\nImpresion entreorden: ");
         abo.imprimirEntre();
-        System.out.println("Impresion postorden: ");
+        System.out.println("\nImpresion postorden: ");
         abo.imprimirPost();
     }
 
