@@ -23,8 +23,9 @@ public class Ordenacion_De_Arboles {
 
         System.out.println("Ingrese la Cantidad de Nodos que Desea: ");
         cantidadN = leer.nextInt();
+        System.out.println("EL ARBOL SE ORDENARA DESDE LA RAIZ, IZUIQERA Y LUEGO DERECHA");
         while (cantidadN != 0) {
-            System.out.println("Ingrese el Nodo: ");
+            System.out.println("Ingrese el Nodo(Numerico): ");
             valorN = leer.nextInt();
             abo.insertar(valorN);
             cantidadN--;
